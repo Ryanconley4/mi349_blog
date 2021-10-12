@@ -1,2 +1,2 @@
 # mi349_blog
-Personal Blog made to practice basic html and css
+Personal blog made to practice basic HTML and CSS
