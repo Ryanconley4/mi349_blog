@@ -1,0 +1,80 @@
+html {
+    background-color: darkcyan;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    border: 5px solid black;
+    padding: 25px;
+}
+
+.text_center {
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(71, 238, 202);
+}
+
+.img_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ul {
+    height: 50px;
+}
+
+nav li {
+    float: left;
+    display: block;
+    padding: 20px;
+    color: blue;
+}
+
+li {
+    color: rgb(18, 187, 32);
+}
+
+a {
+    font-style: italic;
+    font-size: 1em;
+}
+
+[src*=jpg] {
+    border: 2px solid #072541;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 25px;
+    line-height: 1.5em;
+}
+
+table, th, td {
+    border: 3px solid black;
+}
+
+label {
+    width: fit-content;
+}
+
+#contact label {
+    display: block;
+    margin: 20px;
+}
+
+button {
+    background-color: khaki;
+}
+
+article {
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+}
