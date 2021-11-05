@@ -9,6 +9,7 @@
     <title>Marine Life Blog</title>
 </head>
 <body>
+    <div class="sticky_header">
     <header>
         <h1 class="text_center">Marine Life Blog</h1>
         <p class="text_center" id="slogan">Your daily source for aquatic news</p>
@@ -20,6 +21,7 @@
             <li><a title="Contact" href="/contact">Contact Us</a></li>
         </ul>
     </nav>
+    </div>
     <section>
         <h2>Posts</h2>
         <article>
@@ -50,7 +52,12 @@
             <h3>Threats To Coral Reefs</h3>
             <address class="author">By <a rel="author" href="/about">Ryan Conley</a></address>
             <p>Posted on <time datetime="2021-10-13" title="October 13th, 2021">10/13/21</time> </p>
-            <p>Over the last few years, coral reefs have been dying at a surprisingly high 
+            <div id="reef_image"> 
+                <p id="reef_caption"><img src="reef.jpg" alt="Decaying Coral Reef" class="img_center">
+                    A coralreef with significant coral damage.</p>
+            </div>
+            <p class="normal_text">
+                Over the last few years, coral reefs have been dying at a surprisingly high 
                 rate. Coral reefs are a fundamental ecosystem and serve as a habitat for a 
                 wide variety of both aquatic plants and animals. Scientists have studied this 
                 critical issue and have come up with a multitude of reasons as to why they are 
@@ -65,9 +72,10 @@
                 increasing at a high rate each year and this causes the amount of carbon dioxide 
                 in seawater to increase. This increase in CO2 puts stress on the coral. With all 
                 this being said, I think it is important for us all to consider how our actions 
-                impact the environment as well as ways we can help rebuild our amazing coral reefs.</p>
-            <p><img src="reef.jpg" alt="Decaying Coral Reef" class="img_center"></p>
+                impact the environment as well as ways we can help rebuild our amazing coral reefs.
+            </p>
         </article>
+    </section>
         <section>
             <h3>Caribbean Reefs With Acropora Corals Present or Dominant</h3>
             <p>From: <a href="https://ourworldindata.org/coral-reefs" title="Our World in Data">Our World in Data</a></p>
@@ -94,7 +102,6 @@
                 </tr>
             </table>
         </section>
-    </section>
     <section>
         <h3>Subscribe to the Newsletter!</h3>
         <form>
