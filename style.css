@@ -103,6 +103,10 @@ article {
     border-bottom: 2px dotted black;
 }
 
+input, select {
+    margin: 15px;
+}
+
 #about_section {
     display: flex;
 }
@@ -126,4 +130,17 @@ article {
 
 #snorkel_locations > li {
     font-size: 1.5em;
+}
+
+@media (max-width: 400px) {
+    body {
+        margin: 25px;
+        padding: 12px;
+    }
+    .sticky_header {
+        position: static;
+    }
+    #about_section {
+        font-size: 0.6em;
+    }
 }
